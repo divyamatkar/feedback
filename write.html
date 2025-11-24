@@ -2,38 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Area of Triangle using JavaScript & GitHub Steps</title>
 </head>
 <body>
-    <p>Aim:To write a JavaScript program to calculate the factorial of a given number.</p>
-    <p>Objective:</p>
-    <li>
-        <ul>To understand the concept of loops in JavaScript.</ul>
-        <ul>To learn how to take user input and display output using the DOM (Document Object Model).</ul>
-        <ul>To develop a simple mathematical program using JavaScript.</ul>
-    </li>
+
+    <h1>Program: Area of Triangle using JavaScript</h1>
+
     <p>
-        Theory:A factorial of a number n (written as n!) is the product of all positive integers less than or equal to n.
-           Example:
-           3! = 3 × 2 × 1 = 6
-           5! = 5 × 4 × 3 × 2 × 1 = 120
-           By definition: 0! = 1
-        JavaScript provides looping structures such as for, while, and do-while loops.
-         In this program, a for loop is used to multiply numbers from 1 to n to calculate the factorial.
+       Aim: To develop a JavaScript program that calculates the area of a triangle and displays the result to the user.
     </p>
-    <p>Conclusion: By performing this program, we learned how to calculate the factorial of a number using JavaScript loops and interact with web page elements using the DOM. This enhanced understanding of logic building, looping, and dynamic webpage behavior.</p>
-    
+
+    <h2>Objective:</h2>
+    <ul>
+        <li>To understand how to accept user input using HTML form controls.</li>
+        <li>To apply mathematical operations in JavaScript.</li>
+        <li>To use JavaScript functions and DOM manipulation to display output dynamically on a webpage.</li>
+    </ul>
+
     <p>
-        AWS Elastic Beanstalk Quick Steps:
-        1. Create an AWS account.
-        2. Install and configure AWS CLI (aws configure).
-        3. Zip your application (for Node.js include package.json).
-        4. In Elastic Beanstalk console create Application -> Create environment -> Upload and deploy.
-         5. Wait for environment to provision and open the provided URL
+        Theory: A triangle is a polygon with three sides. The mathematical formula used to calculate the 
+        area of a triangle is:
     </p>
-    
+    <p>Area = ½ × Base × Height</p>
+    <p>Where:</p>
+    <ul>
+        <li><strong>Base (b):</strong> The bottom side of the triangle</li>
+        <li><strong>Height (h):</strong> The perpendicular distance from the base to the opposite vertex</li>
+    </ul>
+    <p>
+        Using JavaScript, user values can be captured using <code>document.getElementById()</code>. 
+        The calculation is then performed in a function, and the result is displayed back on the 
+        webpage using DOM manipulation.
+    </p>
+
+    <h2>Conclusion:</h2>
+    <p>
+        By performing this program, we successfully learned how to calculate and display the area 
+        of a triangle using JavaScript. This practical helped in understanding how to take user input, 
+        perform mathematical operations, and dynamically update the webpage using the DOM.
+    </p>
+
+    <hr>
+
+    <h1>Version Control with GitHub</h1>
+
+    <h2>Steps to Create a Version Control Account on GitHub</h2>
+    <ol>
+        <li>Open the website: <a href="https://github.com" target="_blank">github.com</a></li>
+        <li>Click <strong>Sign Up</strong>.</li>
+        <li>Enter your email, password, and username.</li>
+        <li>Verify your email.</li>
+        <li>Login to your GitHub account — setup is complete.</li>
+    </ol>
+
+    <h2>Steps to Create a New Repository on GitHub</h2>
+    <ol>
+        <li>Click <strong>New Repository</strong>.</li>
+        <li>Enter a repository name.</li>
+        <li>Choose <strong>Public</strong> or <strong>Private</strong>.</li>
+        <li>Click <strong>Create Repository</strong>.</li>
+    </ol>
+
+    <h2>Steps to Use Git Commands to Push Code to GitHub</h2>
+    <ol>
+        <li>Open the folder where your project is saved.</li>
+        <li>Right-click and open <strong>Git Bash</strong>.</li>
+        <li>Run the following commands:</li>
+    </ol>
+
+    <pre>
+       git init
+       git add .
+       git commit -m "First commit"
+       git branch -M main
+       git remote add origin https://github.com/your-username/repository-name.git
+       git push -u origin main
+    </pre>
+
+    <p>Now your code is uploaded to GitHub successfully.</p>
+
 </body>
 </html>
-
-
